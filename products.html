@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div>
+            <h1>Skincare</h1>
+        </div>
+
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contacts.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<div class="background">
+
+    <h1>Our Products</h1>
+
+    <p>
+        Explore our skincare products and choose the right products
+        for your daily skincare routine.
+    </p>
+
+    <section>
+
+        <div class="product">
+
+            <div>
+                <img src="images/Sunscreen.jpg" alt="Sunscreen">
+                <h3>Sunscreen</h3>
+                <p>₹500</p>
+                <button onclick="addToCart('Sunscreen', 500)">
+                    Add to Cart
+                </button>
+                <button onclick="buyNow('Sunscreen',500)">Buy Now</button>
+            </div>
+
+            <div>
+                <img src="images/Moisturizer.jpg" alt="Moisturizer">
+                <h3>Moisturizer</h3>
+                <p>₹600</p>
+                <button onclick="addToCart('Moisturizer', 600)">
+                    Add to Cart
+                </button>
+                <button onclick="buyNow('Moisturizer',600)">Buy Now</button>
+            </div>
+
+            <div>
+                <img src="images/lotion.jpg" alt="Lotion">
+                <h3>Lotion</h3>
+                <p>₹450</p>
+                <button onclick="addToCart('Lotion', 450)">
+                    Add to Cart
+                </button>
+                <button onclick="buyNow('Lotion',450)">Buy Now</button>
+            </div>
+
+            <div>
+                <img src="images/serum.jpg" alt="Serum">
+                <h3>Serum</h3>
+                <p>₹800</p>
+                <button onclick="addToCart('Serum', 800)">
+                    Add to Cart
+                </button>
+                <button onclick="buyNow('Serum',800)">Buy Now</button>
+            </div>
+
+            <div>
+                <img src="images/cleanser.jpg" alt="Cleanser">
+                <h3>Cleanser</h3>
+                <p>₹400</p>
+                <button onclick="addToCart('Cleanser', 400)">
+                    Add to Cart
+                </button>
+                <button onclick="buyNow('Cleanser',400)">Buy Now</button>
+            </div>
+
+            <div>
+                <img src="images/toners.jpg" alt="Toner">
+                <h3>Toner</h3>
+                <p>₹350</p>
+                <button onclick="addToCart('Toner', 350)">
+                    Add to Cart
+                </button>
+                <button onclick="buyNow('Toner',350)">Buy Now</button>
+            </div>
+
+        </div>
+
+    </section>
+
+</div>
+
+</body>
+</html>
