@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cleanser - Skincare</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+<header>
+<nav>
+<div>
+<h1>Skincare</h1>
+</div>
+<div>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="product.html">Products</a></li>
+<li><a href="cart.html">Cart</a></li>
+<li><a href="contacts.html">Contact Us</a></li>
+</ul>
+</div>
+</nav>
+</header>
+<main class="product-page">
+<div class="product-detail">
+<div class="image-gallery">
+<div class="main-image">
+<img id="mainProductImage" src="images/cleanser.jpg" alt="Cleanser">
+</div>
+<div class="thumbnail-container">
+<img src="images/cleanser.jpg" onclick="changeImage(this)" class="thumbnail" alt="Cleanser">
+<img src="images/cleanser2.jpg" onclick="changeImage(this)" class="thumbnail" alt="Cleanser">
+<img src="images/cleanser3.jpg" onclick="changeImage(this)" class="thumbnail" alt="Cleanser">
+<img src="images/cleanser4.jpg" onclick="changeImage(this)" class="thumbnail" alt="Cleanser">
+<img src="images/cleanser5.jpg" onclick="changeImage(this)" class="thumbnail" alt="Cleanser">
+</div>
+</div>
+<div class="product-information">
+<h1>Cleanser</h1>
+<div class="rating">★★★★★ <span>4.7/5</span></div>
+<h2>₹400</h2>
+<p>A gentle cleanser that helps remove dirt, excess oil and impurities from your skin.</p>
+<h3>Product Benefits</h3>
+<ul>
+<li>Removes dirt and impurities</li>
+<li>Gentle on skin</li>
+<li>Helps remove excess oil</li>
+<li>Suitable for daily use</li>
+<li>Refreshing feel</li>
+</ul>
+<div class="product-actions">
+<button onclick="addToCart('Cleanser',400,'images/cleanser.jpg')">Add to Cart</button>
+<button onclick="buyNow('Cleanser',400,'images/cleanser.jpg')">Buy Now</button>
+</div>
+</div>
+</div>
+</main>
+</body>
+</html>
