@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moisturizer - Skincare</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div>
+            <h1>Skincare</h1>
+        </div>
+
+        <div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="contacts.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+<main class="product-page">
+
+    <div class="product-detail">
+
+        <div class="image-gallery">
+
+            <div class="main-image">
+                <img id="mainProductImage"
+                     src="images/Moisturizer.jpg"
+                     alt="Moisturizer">
+            </div>
+
+            <div class="thumbnail-container">
+
+                <img src="images/Moisturizer.jpg"
+                     onclick="changeImage(this)"
+                     class="thumbnail"
+                     alt="Moisturizer">
+
+                <img src="images/Moisturizer2.jpg"
+                     onclick="changeImage(this)"
+                     class="thumbnail"
+                     alt="Moisturizer">
+
+                <img src="images/Moisturizer3.jpg"
+                     onclick="changeImage(this)"
+                     class="thumbnail"
+                     alt="Moisturizer">
+
+                <img src="images/Moisturizer4.jpg"
+                     onclick="changeImage(this)"
+                     class="thumbnail"
+                     alt="Moisturizer">
+
+                <img src="images/Moisturizer5.jpg"
+                     onclick="changeImage(this)"
+                     class="thumbnail"
+                     alt="Moisturizer">
+
+            </div>
+
+        </div>
+
+
+        <div class="product-information">
+
+            <h1>Moisturizer</h1>
+
+            <div class="rating">
+                ★★★★★
+                <span>4.7/5</span>
+            </div>
+
+            <h2>₹600</h2>
+
+            <p>
+                A hydrating moisturizer designed to keep your
+                skin soft, smooth and moisturized throughout
+                the day.
+            </p>
+
+            <h3>Product Benefits</h3>
+
+            <ul>
+                <li>Deep hydration</li>
+                <li>Softens skin</li>
+                <li>Lightweight texture</li>
+                <li>Daily skincare use</li>
+                <li>Non-sticky feel</li>
+            </ul>
+
+            <div class="product-actions">
+
+              <button onclick="addToCart('Moisturizer',600,'images/Moisturizer.jpg')">Add to Cart</button>
+<button onclick="buyNow('Moisturizer',600,'images/Moisturizer.jpg')">Buy Now</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+</body>
+</html>

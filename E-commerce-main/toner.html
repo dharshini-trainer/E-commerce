@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Toner - Skincare</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+<header>
+
+    <nav>
+
+        <div>
+            <h1>Skincare</h1>
+        </div>
+
+
+        <div>
+
+            <ul>
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="product.html">
+                        Products
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cart.html">
+                        Cart
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contacts.html">
+                        Contact Us
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
+
+</header>
+
+
+<main class="product-page">
+
+    <div class="product-detail">
+
+
+        <div class="image-gallery">
+
+            <div class="main-image">
+
+                <img
+                    id="mainProductImage"
+                    src="images/toners.jpg"
+                    alt="Toner"
+                >
+
+            </div>
+
+
+            <div class="thumbnail-container">
+
+                <img
+                    src="images/toners.jpg"
+                    onclick="changeImage(this)"
+                    class="thumbnail"
+                    alt="Toner"
+                >
+
+                <img
+                    src="images/toners2.jpg"
+                    onclick="changeImage(this)"
+                    class="thumbnail"
+                    alt="Toner"
+                >
+
+                <img
+                    src="images/toners3.jpg"
+                    onclick="changeImage(this)"
+                    class="thumbnail"
+                    alt="Toner"
+                >
+
+                <img
+                    src="images/toners4.jpg"
+                    onclick="changeImage(this)"
+                    class="thumbnail"
+                    alt="Toner"
+                >
+
+                <img
+                    src="images/toners5.jpg"
+                    onclick="changeImage(this)"
+                    class="thumbnail"
+                    alt="Toner"
+                >
+
+            </div>
+
+        </div>
+
+
+        <div class="product-information">
+
+            <h1>Toner</h1>
+
+            <div class="rating">
+                ★★★★★
+                <span>4.6/5</span>
+            </div>
+
+            <h2>₹350</h2>
+
+            <p>
+                A refreshing toner that can be included in
+                your everyday skincare routine for clean and
+                balanced-looking skin.
+            </p>
+
+
+            <h3>Product Benefits</h3>
+
+            <ul>
+
+                <li>Refreshing formula</li>
+                <li>Helps remove remaining impurities</li>
+                <li>Lightweight feel</li>
+                <li>Easy to use</li>
+                <li>Suitable for daily routine</li>
+
+            </ul>
+
+
+            <div class="product-actions">
+
+      <button onclick="addToCart('Toner',350,'images/toners.jpg')">Add to Cart</button>
+<button onclick="buyNow('Toner',350,'images/toners.jpg')">Buy Now</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+
+</body>
+</html>
